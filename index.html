@@ -3,36 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Soumyakanta Sahoo - Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Soumyakanta Sahoo | Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
+<body class="bg-gray-900 text-white font-sans">
 
-    <header>
-        <h1>Soumyakanta Sahoo</h1>
-        <p>B.Tech in CSAI | Tech Enthusiast</p>
-        <a href="assets/SoumyakantaSahooResume.pdf" download>Download Resume</a>
+    <!-- Header -->
+    <header class="text-center py-10 bg-gray-800 shadow-lg">
+        <h1 class="text-4xl font-bold">Soumyakanta Sahoo</h1>
+        <p class="text-gray-400 mt-2">B.Tech in CSAI | Tech Enthusiast</p>
+        <a href="SoumyakantaSahooResume.pdf" download class="mt-4 inline-block bg-blue-500 px-6 py-2 rounded-lg text-white hover:bg-blue-600 transition">
+            Download Resume
+        </a>
     </header>
 
-    <section id="about">
-        <h2>About Me</h2>
-        <p>I'm a passionate Computer Science and AI student at NSUT with strong skills in Python, C++, HTML, and CSS.</p>
+    <!-- About Section -->
+    <section id="about" class="max-w-4xl mx-auto text-center py-10">
+        <img src="assets/profile.jpg" alt="Profile Picture" class="w-32 h-32 rounded-full mx-auto shadow-lg">
+        <h2 class="text-3xl font-semibold mt-4">About Me</h2>
+        <p class="text-gray-300 mt-2 px-6">
+            A passionate Computer Science and AI student at NSUT, driven by a deep curiosity for technology and innovation. Proficient in Python, C++, and web development, I specialize in building scalable, efficient, and intelligent solutions. With a strong foundation in problem-solving, I thrive on developing cutting-edge projects in AI and cloud computing. My mission is to bridge the gap between theoretical knowledge and real-world applications, crafting technology that makes an impact.
+        </p>
     </section>
 
-    <section id="skills">
-        <h2>Skills</h2>
-        <ul>
-            <li>Python</li>
-            <li>C++</li>
-            <li>HTML & CSS</li>
-        </ul>
+    <!-- Skills -->
+    <section id="skills" class="max-w-4xl mx-auto text-center py-10">
+        <h2 class="text-3xl font-semibold">Skills</h2>
+        <div class="flex flex-wrap justify-center gap-4 mt-4">
+            <span class="bg-blue-500 px-4 py-2 rounded-lg">Python</span>
+            <span class="bg-blue-500 px-4 py-2 rounded-lg">C++</span>
+            <span class="bg-blue-500 px-4 py-2 rounded-lg">HTML, CSS, JavaScript</span>
+            <span class="bg-blue-500 px-4 py-2 rounded-lg">Machine Learning</span>
+        </div>
     </section>
 
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Email: <a href="mailto:soumya4279@gmail.com">soumya4279@gmail.com</a></p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/soumyakanta-sahoo-1573472a4" target="_blank">Visit My LinkedIn</a></p>
+    <!-- Projects Section -->
+<section id="projects" class="max-w-6xl mx-auto text-center py-16">
+    <h2 class="text-3xl font-semibold">Projects</h2>
+    <p class="text-gray-400 mt-2">Exciting projects are on the way. Stay tuned!</p>
+
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
+        <!-- Placeholder Project Card -->
+        <div class="bg-gray-800 p-6 rounded-lg shadow-lg transform hover:scale-105 transition">
+            <h3 class="text-xl font-semibold text-white">Coming Soon...</h3>
+            <p class="text-gray-400 mt-2">New projects will be showcased here soon. Stay tuned!</p>
+        </div>
+
+        <div class="bg-gray-800 p-6 rounded-lg shadow-lg transform hover:scale-105 transition">
+            <h3 class="text-xl font-semibold text-white">Coming Soon...</h3>
+            <p class="text-gray-400 mt-2">New projects will be showcased here soon. Stay tuned!</p>
+        </div>
+
+        <div class="bg-gray-800 p-6 rounded-lg shadow-lg transform hover:scale-105 transition">
+            <h3 class="text-xl font-semibold text-white">Coming Soon...</h3>
+            <p class="text-gray-400 mt-2">New projects will be showcased here soon. Stay tuned!</p>
+        </div>
+    </div>
+</section>
+
+    <!-- Contact -->
+    <section id="contact" class="max-w-4xl mx-auto text-center py-10">
+        <h2 class="text-3xl font-semibold">Contact</h2>
+        <p class="mt-2">Email: <a href="mailto:soumya4279@gmail.com" class="text-blue-400 hover:underline">soumya4279@gmail.com</a></p>
+        <p class="mt-2">LinkedIn: <a href="https://www.linkedin.com/in/soumyakanta-sahoo-1573472a4" target="_blank" class="text-blue-400 hover:underline">Visit My LinkedIn</a></p>
     </section>
 
+    <script src="script.js"></script>
 </body>
 </html>
